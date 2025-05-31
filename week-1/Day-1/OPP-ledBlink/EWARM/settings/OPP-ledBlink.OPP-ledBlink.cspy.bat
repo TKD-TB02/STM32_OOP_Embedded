@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\4_cty\2_hoc_tap\5_github\OPP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.general.xcl" --backend -f "D:\4_cty\2_hoc_tap\5_github\OPP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\4_cty\2_hoc_tap\5_github\STM32\STM32_OOP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.general.xcl" --backend -f "D:\4_cty\2_hoc_tap\5_github\STM32\STM32_OOP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\4_cty\2_hoc_tap\5_github\OPP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.general.xcl" "--debug_file=%~1" --backend -f "D:\4_cty\2_hoc_tap\5_github\OPP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\4_cty\2_hoc_tap\5_github\STM32\STM32_OOP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.general.xcl" "--debug_file=%~1" --backend -f "D:\4_cty\2_hoc_tap\5_github\STM32\STM32_OOP_Embedded\week-1\Day-1\OPP-ledBlink\EWARM\settings\OPP-ledBlink.OPP-ledBlink.driver.xcl" 
 
 @echo off 
 :end

@@ -1,0 +1,19 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\EWARM\\Project.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\EWARM\\Project.eww": {
+      "configs": {
+        "${workspaceFolder}\\EWARM\\OPP-ledBlink.ewp": "OPP-ledBlink",
+        "${workspaceFolder}\\EWARM\\Code-Day2.ewp": "Code-Day2"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\EWARM\\Code-Day2.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3"
+  }
+}

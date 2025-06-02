@@ -1,0 +1,25 @@
+#include "module_led.h"
+
+LED::LED(GPIO_TypeDef *gpioPort, uint16_t gpioPin){
+    port = gpioPort;
+    pin = gpioPin;
+}
+
+void LED::on(){
+    port->BSRR = pin;
+}
+
+void LED::off(){
+    port->BSRR = (pin << 16);
+}
+
+void LED::toggle(){
+    if (port->BSRR & (pin << 1) == 0)
+    {
+        off();
+    }
+    else
+    {
+        on();
+    }
+}
